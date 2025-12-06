@@ -1,0 +1,50 @@
+body {
+font-family: Arial;
+margin: 0;
+line-height: 1.6;
+}
+
+section {
+padding: 60px 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+.hero {
+background: linear-gradient(135deg,#4f46e5,#9333ea);
+color: white;
+text-align: center;
+}
+
+button {
+padding: 12px 20px;
+margin: 10px;
+border: none;
+background: #22c55e;
+color: white;
+cursor: pointer;
+}
+
+.secondary {
+background: transparent;
+border: 1px solid white;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+gap: 20px;
+}
+
+.card {
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 8px;
+}
+
+footer {
+background: #111;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
